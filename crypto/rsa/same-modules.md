@@ -5,7 +5,7 @@ you can either be a
 - external attacker: you need to intercpet same message twice (N, e1,c1) and (N, e2,c2) and c1 = M^e1[N] ,c2 = M^e2[N]. your goal is to get M
 - internal attacker: you will need (N,d,e) and you can decrypt any messege
 
-#### As A External Attacker
+### As A External Attacker
 lets say you wanna decrpyt a message M and you have two public keys (N,e1) and (N,e2) in addition to thier cipher text c1 , c2.    
 
 from the extended euclidean algo aka EEA we know e1 * u + e2 * v = gcd(e1,e2), if e1 and e2 are coprime that means gcd(e1,e2) = 1   
@@ -51,7 +51,7 @@ M
 
 
 
-#### As A Internal Attacker
+### As A Internal Attacker
 if you are a internal attacker that means you can send messages and comunicate and stuff,    
 doesnt matter what matters is you have your own public and private keys.    
 we know from textbook rsa:  
