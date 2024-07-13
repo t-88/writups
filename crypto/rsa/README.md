@@ -6,7 +6,7 @@ because rsa uses math, and you really cant attack math. we aim to attack the imp
 
 ## Index
 - [same modules](./same-modules.md)
-- close primes p , q for N
+- [fermat's attack (close primes)](./fermet's-attack-(close-primes).md) 
 - primorial and fast primes
 - collection of rsa keys
 - attacking prime generation 
